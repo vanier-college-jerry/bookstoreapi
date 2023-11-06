@@ -17,6 +17,8 @@ import java.util.Optional;
 @RequestMapping("/api/v1")
 public class CustomerController {
 
+
+    //AutoWire - initialise the service at the start of the code.
     @Autowired
     private CustomerService customerService;
 
